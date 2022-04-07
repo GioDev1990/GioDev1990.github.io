@@ -133,8 +133,6 @@ a{
         position: fixed;
         bottom: 102vh;
         left: 670px;
-    
-    
     }
 
 
@@ -198,17 +196,22 @@ a{
 
 }
 
-@media screen and (max-width:360px) {  
+@media screen and (min-width:200px) {  
     
 
     .nav-branding{
         display: fixed;
-        margin: 10px;
+        position: fixed;
+        left: -120px;
+       
     }
 
    
     .hamburger {
       display: block;  
+      position: fixed;
+      left: 90vw;
+      top: 36px;
           
     }
     .hamburger.active .bar:nth-child(2){
