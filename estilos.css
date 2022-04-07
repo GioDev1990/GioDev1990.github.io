@@ -44,10 +44,11 @@ li{
 a{
     text-decoration: none;
     color: rgb(203, 222, 35);
-    font-size: 1.2rem;;
+    font-size: 1.1rem;;
 }
 
 .enlace{
+    
     transition: 0.3s ease-out;
         
 }
@@ -89,9 +90,38 @@ a{
     font-size: 40px;
     position: fixed;
     bottom: 100vh;
-    left: 10px;
+    left: 0vw;
     
     
+
+}
+
+.nav-item{
+    margin: 0;
+
+    
+
+}
+
+.nav-menu.active{
+    left: 0px;
+}
+
+.contact{
+    text-decoration: none; 
+    color: rgb(203, 222, 35);
+    width: 100vw;
+    height: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    margin-top: calc(50vh - 50px); 
+    font-family: sans-serif;
+    font-size: 20px;
+    position: fixed;
+    bottom: 102vh;
+    left: 650px;
+
 
 }
 
@@ -101,38 +131,61 @@ a{
 
        
     .hamburger {
-      display: block;  
-          
-    }
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{        
+        display: block; 
         position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #262626;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-                
-        
-        
-    }  
+        left: 500px; 
+            
+      }
+      .hamburger.active .bar:nth-child(2){
+          opacity: 0;
+      }
+      .hamburger.active .bar:nth-child(1){
+          transform: translateY(8px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3){
+          transform: translateY(-8px) rotate(-45deg);
+      }
+  
+      .nav-menu{        
+          position: fixed;
+          left: -100%;
+          top: 70px;
+          gap: 0;
+          flex-direction: column;
+          background-color: #262626;
+          width: 100%;
+          text-align: center;
+          transition: 0.3s;
+                  
+          
+          
+      }
+  
+      .nav-item{
+          margin: 16px 0;
+          
+  
+      }
+  
+      .nav-menu.active{
+          left: 0px;
+      }
+  
+      .nav-branding{
+          position: fixed;
+          left: -215px;
+      }
+  
+  
+      
+  
+  
 
 
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:360px) {  
+    
 
     .nav-branding{
         display: fixed;
@@ -169,15 +222,7 @@ a{
     }
 }
 
-.nav-item{
-    margin: 16px 0;
-    
 
-}
-
-.nav-menu.active{
-    left: 0px;
-}
 
 /*Fondo*/
 
