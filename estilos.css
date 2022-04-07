@@ -127,6 +127,20 @@ a{
 
 /*Mobile section*/
 
+@media screen and (max-width:2366px){
+
+    .contact{        
+        position: fixed;
+        bottom: 102vh;
+        left: 670px;
+    
+    
+    }
+
+
+
+}
+
 @media screen and (max-width:768px) {
 
        
