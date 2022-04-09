@@ -197,15 +197,17 @@ a{
         top: 21px;        
     
 
-}
+    }
 
-.nav-branding{
+    .nav-branding{
         position: fixed;
         left: -120px;  
         top: -21px; 
 
 
- }
+    }
+
+}
 
 
 
