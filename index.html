@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://GioDev1990.github.io">
         <title>Pagina</title>    
+        <link rel="stylesheet" href="locomotive-scroll.min.css">
     <link rel="stylesheet" href="estilos.css">    
 </head>
 <body>  
@@ -13,7 +14,7 @@
     <!-- Navbar Section -->  
 
     
-   
+    <div class="container">
         <section class="background section1" id="inicio">
             <nav class="navbar">
                 <a href="#inicio" class="nav-branding">Inicio</a>
@@ -84,9 +85,15 @@
         <section class="background section15">
             <h2>Page 15</h2>
         </section>
+    </div>
     
-    
-    
+    <script src="apps.js"></script>
+    <script src="locomotive-scroll.min.js"></script>
     <script src="js/app.js"></script>  
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll();
+        })();
+    </script>
 </body>
 </html>
