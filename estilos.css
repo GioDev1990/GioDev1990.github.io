@@ -188,18 +188,25 @@ a{
 
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:360px) {
     
-    .hamburger {
-        display: flex;  
-        flex: 2;        
+    .hamburger {        
+              
         position: fixed;
-        left: 620px;  
-        top: 26px;        
-    }
-
+        left: 300px;  
+        top: 21px;        
+    
 
 }
+
+.nav-branding{
+        position: fixed;
+        left: -120px;  
+        top: -21px; 
+
+
+ }
+
 
 
 
