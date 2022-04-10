@@ -17,17 +17,13 @@ body {
 
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 /*Menu-nav*/
 
 
 .navbar{
     min-height: 70px;
-    flex: 1; 
+    display: flex;
     min-width: 200;   
     justify-content: space-between;    
     position: fixed;  
@@ -144,6 +140,30 @@ a{
 
 /*Mobile section*/
 
+@media screen and (max-width:390px){
+
+    .hamburger {
+        display: flex;  
+        position: fixed;
+        left: 350px;  
+        top: -500px;        
+      }
+
+    .nav-branding{ 
+        display: flex;        
+        position: fixed;        
+        top: 500px;
+        
+        
+
+        
+
+    }
+
+
+
+}
+
 @media screen and (max-width:768px) {
 
        
@@ -188,13 +208,14 @@ a{
 
 }
 
+
+
 @media screen and (max-width:360px) {
     
-    .hamburger {        
-              
-        position: fixed;
-        left: 300px;  
-        top: 21px;        
+    .hamburger {                
+        position: fixed;          
+        top: 25px;
+        left: 300px;    
     
 
     }
