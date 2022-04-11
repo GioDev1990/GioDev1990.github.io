@@ -73,7 +73,8 @@ a{
 
 
 .bar{ 
-    display: block;   
+    display: flex;   
+    justify-content: flex-start;
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -116,7 +117,8 @@ a{
 }
 
 .contact{
-    
+    display: flex;
+    justify-content: end;
     text-decoration: none; 
     flex: 3;
     color: rgb(203, 222, 35);
@@ -130,7 +132,7 @@ a{
     font-size: 20px;
     position: fixed;
     bottom: 102vh;
-    left: 670px;
+    left: -4vw;
     
 
 
@@ -142,8 +144,10 @@ a{
 
 @media screen and (max-width:390px){
 
+    
+
     .hamburger {
-        display: flex;  
+        display: flex;          
         position: fixed;
         left: 350px;  
         top: -500px;        
@@ -166,6 +170,10 @@ a{
 
 @media screen and (max-width:768px) {
 
+    .contact{
+        display: none;
+    }
+
        
     .hamburger {
       display: block;  
@@ -173,6 +181,7 @@ a{
       left: 620px;  
       top: 26px;        
     }
+   
     .hamburger.active .bar:nth-child(2){
         opacity: 0;
     }
