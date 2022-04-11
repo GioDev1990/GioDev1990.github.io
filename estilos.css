@@ -142,31 +142,7 @@ a{
 
 /*Mobile section*/
 
-@media screen and (max-width:390px){
 
-    
-
-    .hamburger {
-        display: flex;          
-        position: fixed;
-        left: 350px;  
-        top: -500px;        
-      }
-
-    .nav-branding{ 
-        display: flex;        
-        position: fixed;        
-        top: 500px;
-        
-        
-
-        
-
-    }
-
-
-
-}
 
 @media screen and (max-width:768px) {
 
@@ -179,7 +155,8 @@ a{
       display: block;  
       position: fixed;
       left: 620px;  
-      top: 26px;        
+      top: 26px; 
+         
     }
    
     .hamburger.active .bar:nth-child(2){
@@ -219,7 +196,7 @@ a{
 
 
 
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
     
     .hamburger {                
         position: fixed;          
@@ -236,6 +213,30 @@ a{
 
 
     }
+
+}
+
+@media screen and (max-width:200px){
+    
+
+    .hamburger {
+        display: flex; 
+        justify-content: start;         
+        position: fixed;
+    }
+       
+
+    .nav-branding{ 
+        display: flex;        
+        position: fixed;        
+        top: -90vh;
+        left: -100vw;      
+
+        
+
+    }
+
+
 
 }
 
