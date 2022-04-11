@@ -196,7 +196,7 @@ a{
 
 
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:450px) {
     
     .hamburger {                
         position: fixed;          
