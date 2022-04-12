@@ -273,14 +273,18 @@ a{
 
 .background h2{
     font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-align: center;
+    line-height: 100vh;
+    scroll-snap-align: start;
 
 }
 
 .section1{
     
     background: black;
-    padding: 0.1px; 
-    scroll-snap-align: start;
+    padding: 0.1px;    
     
 
 }
@@ -288,53 +292,26 @@ a{
 
 
 .section2{
-    height: 100vh;
-    background-image: url(img/2.png);
-    color: #fff;
-    text-align: center;
-    line-height: 600px;
-    scroll-snap-align: start;     
-      
+    
+    background-image: url(img/2.png);     
        
         
 }
 
 
-.background h3{
-    font-size: 4rem;    
-    
-}
-
-
-
-.section3{
-    
-    background-image: url(img/3.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
-        
+.section3{    
+    background-image: url(img/3.png);    
 
 }
 
-.section4{
-    
+.section4{    
     background-image: url(img/4.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
-    
+       
 
 }
 
 .section5{    
     background-image: url(img/5.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
     
 
 }
@@ -342,83 +319,52 @@ a{
 .section6{
     
     background-image: url(img/6.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section7{
     
     background-image: url(img/7.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
-
+    
 }
 .section8{
     background-image: url(img/8.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section9{
     background-image: url(img/9.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section10{
     background-image: url(img/10.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section11{
     background-image: url(img/11.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section12{
     background-image: url(img/12.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section13{
     background-image: url(img/13.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 .section14{
     background-image: url(img/14.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+   
 
 }
 .section15{
     background-image: url(img/15.png);
-    color: #fff;
-    text-align: center;
-    line-height: 100vh;
-    scroll-snap-align: start;
+    
 
 }
 
