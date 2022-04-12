@@ -181,15 +181,17 @@ a{
         opacity: 0;
         text-align: center;
         padding-top: 20px; 
-        visibility: hidden;      
+        visibility: hidden;  
+        transition: all 600ms ease;    
         
     }  
 
     .nav-menu.show{
         opacity: 1;
         padding-top: 100px;
-        background: rgba(2, 2, 2, 0.8);
+        background: black;
         visibility: visible;
+
     }
 
     .nav-menu li{
@@ -200,10 +202,19 @@ a{
         margin-bottom: 30px;
         position: relative;
         text-decoration: none;
+        
+    }
+
+    .nav-menu a{
+        font-size: 30px;
+        opacity: 0.5;
+        transition: ease 800ms;
     }
 
     .nav-menu li:hover{
         letter-spacing: 4px;
+        
+        
     }
 
     
@@ -211,6 +222,7 @@ a{
         position: fixed;
         left: -275px;
         margin: 10px 0;
+        z-index: 4;
         
 
     }
@@ -260,7 +272,7 @@ a{
 
 .section1{
     
-    background-image: url(img/1.png);
+    background: black;
     padding: 0.1px; 
     scroll-snap-align: start;
     
