@@ -84,7 +84,7 @@ a{
 
 }
 
-.nav-branding{   
+.logo{   
     display: flex;
     justify-content: center;
     text-decoration: none; 
@@ -100,6 +100,7 @@ a{
     position: fixed;
     bottom: 100vh;
     left: 0vw;
+    
     
     
 
@@ -156,6 +157,7 @@ a{
       position: fixed;
       left: 620px;  
       top: 26px; 
+      z-index: 3;
          
     }
    
@@ -170,20 +172,42 @@ a{
     }
 
     .nav-menu{        
+        z-index: 1;
+        min-width: 100%;
+        min-height: 100%;
         position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #262626;
-        width: 100%;
+        top: 0px;
+        left: 0px;
+        opacity: 0;
         text-align: center;
-        transition: 0.3s;
-                
-        
+        padding-top: 20px; 
+        visibility: hidden;      
         
     }  
-    .nav-branding{ 
+
+    .nav-menu.show{
+        opacity: 1;
+        padding-top: 100px;
+        background: rgba(2, 2, 2, 0.8);
+        visibility: visible;
+    }
+
+    .nav-menu li{
+        list-style: none;
+        position: relative;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .nav-menu li:hover{
+        letter-spacing: 4px;
+    }
+
+    
+    .logo{ 
         position: fixed;
         left: -275px;
         margin: 10px 0;
@@ -206,7 +230,7 @@ a{
 
     }
 
-    .nav-branding{
+    .logo{
         position: fixed;
         left: -120px;  
         top: -21px; 
@@ -216,29 +240,6 @@ a{
 
 }
 
-@media screen and (max-width:200px){
-    
-
-    .hamburger {
-        display: flex; 
-        justify-content: start;         
-        position: fixed;
-    }
-       
-
-    .nav-branding{ 
-        display: flex;        
-        position: fixed;        
-        top: -90vh;
-        left: -100vw;      
-
-        
-
-    }
-
-
-
-}
 
 
 
