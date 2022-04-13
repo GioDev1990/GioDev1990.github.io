@@ -54,17 +54,38 @@ a{
 }
 
 .enlace{
-    
+    position: relative;    
     transition: 0.3s ease-out;
         
 }
 
-.enlace:hover{
-    text-decoration: underline;
+
+
+.enlace::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.175rem;
+    left: 0;
+    bottom: 0;
+    background: yellow;
+    
+}
+
+.enlace::after{
+    transform: scale(0, 1);
+    transform-origin: 0% 100%;
+    transition: transform 0.3s ease;
+}
+
+.enlace:hover::after{
+    transform: scale(1, 1);  
         
 
 
 }
+
+
 
 .hamburger{
     display: none;       
@@ -153,9 +174,9 @@ a{
 
        
     .hamburger {
-      display: block;  
+      display: block;       
       position: fixed;
-      left: 620px;  
+      left: 90vw;  
       top: 26px; 
       z-index: 3;
          
@@ -195,8 +216,7 @@ a{
     }
 
     .nav-menu li{
-        list-style: none;
-        position: relative;
+        list-style: none;        
         width: 300px;
         margin: auto;
         margin-bottom: 30px;
@@ -220,7 +240,8 @@ a{
     
     .logo{ 
         position: fixed;
-        left: -275px;
+        left: -35vw;
+        top: -2.9vh;
         margin: 10px 0;
         z-index: 4;
         
@@ -233,12 +254,12 @@ a{
 
 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:400px) {
     
     .hamburger {                
         position: fixed;          
-        top: 25px;
-        left: 300px;    
+        top: 3vh;
+        left: 85vw;    
     
 
     }
